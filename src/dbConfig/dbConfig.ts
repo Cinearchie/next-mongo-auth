@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 export async function connect() {
-    const mongoUrl = process.env.MONGO_URL;
+    const mongoUrl = 'mongodb+srv://archishmanadhikari09:6zVlkDUnOo7plmHV@cluster0.bxf2d8w.mongodb.net/myapp?retryWrites=true&w=majority'
     console.log(mongoUrl)
 
     if (!mongoUrl) {
